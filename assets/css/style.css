@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+a , a:hover {
+    text-decoration: none;    
+}
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', Sans-serif;
+}
+.widthCeo {
+    width: 100%;
+}
+.wrapper {
+    width: 80%;
+   /* background-color: red;*/
+    margin: 0 auto;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+#meni-div .flex-container  li {
+    padding-left: 5vw;
+}
+#myCarousel{
+    width: 100%;
+    height: 45vw;
+    background-color: #615656;
+}
+#slajder {
+    position: relative;
+    width: 100%;
+    min-height: 50vw;
+    background-image: url("../images/wallpaper2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#slajder-autor {
+    position: relative;
+    width: 100%;
+    min-height: 26vw;
+    background-image: url("../images/author.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#slajder-tekst{
+    width: 20%;
+    position:absolute;
+    top: 35%;
+    left: 15%;
+}
+#slajder-tekst-autor{
+    width: 20%;
+    position:absolute;
+    top: 42%;
+    right: 15%;
+}
+#slajder-tekst h1, #slajder-tekst p, .navbar-brand, .link a, #slajder-tekst-autor h1{
+    color: #ebeec4;
+}
+.onama  {
+    width: 100%;
+    /*background-color: yellow;*/
+    vertical-align: middle;
+    padding:3vw 0;
+}
+.onama-slika {
+    display: inline-block;
+    width: 50%;
+    overflow: hidden;   
+    box-sizing: border-box;
+    padding: 5px;
+    
+}
+.onama-slika img{
+    max-width: 80%;
+    height: auto;
+    float: right;
+    vertical-align: middle;
+    border-radius: 2vw;
+}
+.onama-tekst {
+    width: 49%;
+    height: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    /*background-color: red;*/
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-bottom: 3vw;
+}
+.onama-tekst-autor {
+    width: 49%;
+    height: 100%;
+    display: inline-block;
+    margin: 5vw auto;
+    padding-bottom: 12vw;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+.onama .onama-tekst h2 {
+    padding-top: 5vw;
+    text-align: center;
+}
+.onama .onama-tekst  p{
+    text-align: center;
+    padding-top: 3vw;
+}
+.widthCeo #slikaFix {
+    background-image: url('../images/slika-fix.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+.widthCeo #slikaFix {
+    height: 25vw;
+}
+#news .onama-tekst p {
+    text-align: left;
+}
+#forma {
+    min-height: auto;
+    background-image: url("../images/forma-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 5vw;
+    color:#bac6db;
+}
+#tablicaForma {
+    width: 40%;
+    margin: 0 auto;
+}
+.sakriven {
+    display: none;
+}
+.dugme {
+    width:50%;
+    margin: 0 auto;
+}
+
+#tablicaForma tr td{
+    width: 20%;
+}
+.prostor {
+    width: 10%;
+}
+
+#greskaIme, #greskaPhone, #greskaEmail {
+    display: none;
+}
+#formaNaslov{
+    width: 50%;
+    min-height: 2vw;
+    margin: 0 auto;
+
+}
+#formaNaslov h2{
+    text-align: center;
+    color: #738096;
+}
+.navbar-footer a i, .navbar-footer li  {
+    padding-left: 1vw;
+}
+nav {
+    background-color: rgb(26, 18, 2);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    color: #c4c71f;
+}
+#footer nav {
+    background-color: rgb(26, 18, 2);
+    height: 6vw;
+    box-shadow: 0px 0px 0px;
+}
+.link {
+    transition: 0.4s;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+#scrollToTop
+{
+	background:#000505;
+	padding:20px;
+    position:fixed;
+    border-radius: 50%;
+    color: #fff;
+	right:0px;
+	bottom:0px;
+	display:none;
+}
+.fa-twitter{
+    color: rgb(114, 204, 226);
+}
+.fa-google-plus {
+    color:rgb(121, 53, 53);
+}
+.fa-pinterest {
+    color: rgb(151, 54, 54);
+}
+.fa-instagram {
+    color: rgb(95, 70, 15);
+}

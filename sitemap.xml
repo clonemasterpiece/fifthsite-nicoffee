@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://nicoffee.000webhostapp.com</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.89</priority>
+		<lastmod>2019-01-26</lastmod>
+
+	</url>
+	<url>
+		<loc>https://nicoffee.000webhostapp.com/index.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.88</priority>
+		<lastmod>2019-01-26</lastmod>
+
+	</url>
+    <url>
+		<loc>https://nicoffee.000webhostapp.com/author.html</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.85</priority>
+		<lastmod>2019-01-26</lastmod>
+
+	</url>
+	
+</urlset>
